@@ -1,0 +1,1 @@
+{"version":3,"file":"azure-ad-signup.provider.js","sourceRoot":"","sources":["../../src/providers/azure-ad-signup.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,qBAAqB;IAChC,KAAK;QACH,oBAAoB;QACpB,OAAO,KAAK,EAAC,OAAO,EAAC,EAAE;YACrB,kBAAkB;YAClB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,uCAAuC,CACxC,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AAVD,sDAUC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"security-specs.js","sourceRoot":"","sources":["../src/security-specs.ts"],"names":[],"mappings":";;;AAKa,QAAA,uBAAuB,GAAG,CAAC,EAAC,UAAU,EAAE,EAAE,EAAC,CAAC,CAAC;AAI7C,QAAA,oBAAoB,GAA0B;IACzD,UAAU,EAAE;QACV,IAAI,EAAE,MAAM;QACZ,MAAM,EAAE,QAAQ;QAChB,YAAY,EAAE,KAAK;KACpB;CACF,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"apple-oauth2-signup.provider.js","sourceRoot":"","sources":["../../src/providers/apple-oauth2-signup.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,yBAAyB;IACpC,KAAK;QACH,OAAO,KAAK,EAAC,OAAO,EAAC,EAAE;YACrB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,2CAA2C,CAC5C,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AARD,8DAQC"}

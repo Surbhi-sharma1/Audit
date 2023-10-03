@@ -1,0 +1,1 @@
+{"version":3,"file":"instagram-oauth2-signup.provider.js","sourceRoot":"","sources":["../../src/providers/instagram-oauth2-signup.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,6BAA6B;IAGxC,KAAK;QACH,OAAO,KAAK,EAAC,OAAO,EAAC,EAAE;YACrB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,+CAA+C,CAChD,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AAVD,sEAUC"}

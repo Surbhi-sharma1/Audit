@@ -1,0 +1,1 @@
+{"version":3,"file":"logger.provider.js","sourceRoot":"","sources":["../../../../src/components/logger-extension/providers/logger.provider.ts"],"names":[],"mappings":";;;AAMA,8DAA+D;AAE/D,MAAa,cAAc;IACzB;QACE,IAAI,CAAC,MAAM,GAAG,IAAI,qCAAoB,EAAE,CAAC;IAC3C,CAAC;IAGD,qBAAqB;IACrB,KAAK;QACH,OAAO,IAAI,CAAC,MAAM,CAAC;IACrB,CAAC;CACF;AAVD,wCAUC"}

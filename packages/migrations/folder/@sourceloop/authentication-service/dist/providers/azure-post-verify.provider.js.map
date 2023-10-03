@@ -1,0 +1,1 @@
+{"version":3,"file":"azure-post-verify.provider.js","sourceRoot":"","sources":["../../src/providers/azure-post-verify.provider.ts"],"names":[],"mappings":";;;AASA,MAAa,uBAAuB;IAClC,KAAK;QACH,oBAAoB;QACpB,OAAO,KAAK,EAAE,OAAiC,EAAE,IAAsB,EAAE,EAAE;QACzE,kBAAkB;QAClB,IAAI,CAAC;IACT,CAAC;CACF;AAPD,0DAOC"}

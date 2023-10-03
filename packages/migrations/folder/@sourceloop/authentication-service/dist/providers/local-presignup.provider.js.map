@@ -1,0 +1,1 @@
+{"version":3,"file":"local-presignup.provider.js","sourceRoot":"","sources":["../../src/providers/local-presignup.provider.ts"],"names":[],"mappings":";;;AAQA,MAAa,sBAAsB;IAGjC,KAAK;QACH,OAAO,KAAK,EAAE,aAA+B,EAAE,EAAE;YAC/C,OAAO;gBACL,KAAK,EAAE,aAAa,CAAC,KAAK;aAC3B,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AAVD,wDAUC"}

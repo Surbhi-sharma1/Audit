@@ -1,0 +1,48 @@
+import { RequestContext } from '@loopback/rest';
+import { IAuthUserWithPermissions, ILogger, SuccessResponse } from '@sourceloop/core';
+import { ActorId, IUserActivity } from '../../types';
+import { AuthClient } from '../../models';
+import { AuthCodeGeneratorFn, CodeReaderFn, JwtPayloadFn, JWTSignerFn } from '../../providers';
+import { LoginActivityRepository, AuthClientRepository, OtpCacheRepository, RefreshTokenRepository, RevokedTokenRepository, RoleRepository, UserCredentialsRepository, UserLevelPermissionRepository, UserLevelResourceRepository, UserRepository, UserTenantRepository } from '../../repositories';
+import { TenantConfigRepository } from '../../repositories/tenant-config.repository';
+import { LoginHelperService } from '../../services';
+import { AuthRefreshTokenRequest, AuthTokenRequest, CodeResponse, LoginRequest } from './';
+import { AuthUser } from './models/auth-user.model';
+import { ResetPassword } from './models/reset-password.dto';
+import { TokenResponse } from './models/token-response.dto';
+export declare class LoginController {
+    private readonly client;
+    private readonly user;
+    authClientRepository: AuthClientRepository;
+    userRepo: UserRepository;
+    otpCacheRepo: OtpCacheRepository;
+    roleRepo: RoleRepository;
+    utPermsRepo: UserLevelPermissionRepository;
+    userResourcesRepository: UserLevelResourceRepository;
+    userTenantRepo: UserTenantRepository;
+    refreshTokenRepo: RefreshTokenRepository;
+    revokedTokensRepo: RevokedTokenRepository;
+    tenantConfigRepo: TenantConfigRepository;
+    userCredsRepository: UserCredentialsRepository;
+    logger: ILogger;
+    private readonly getJwtPayload;
+    private readonly loginHelperService;
+    private readonly getAuthCode;
+    private readonly jwtSigner;
+    private readonly loginActivityRepo;
+    private readonly actorKey;
+    private readonly ctx;
+    private readonly userActivity?;
+    constructor(client: AuthClient | undefined, user: AuthUser | undefined, authClientRepository: AuthClientRepository, userRepo: UserRepository, otpCacheRepo: OtpCacheRepository, roleRepo: RoleRepository, utPermsRepo: UserLevelPermissionRepository, userResourcesRepository: UserLevelResourceRepository, userTenantRepo: UserTenantRepository, refreshTokenRepo: RefreshTokenRepository, revokedTokensRepo: RevokedTokenRepository, tenantConfigRepo: TenantConfigRepository, userCredsRepository: UserCredentialsRepository, logger: ILogger, getJwtPayload: JwtPayloadFn, loginHelperService: LoginHelperService, getAuthCode: AuthCodeGeneratorFn, jwtSigner: JWTSignerFn<object>, loginActivityRepo: LoginActivityRepository, actorKey: ActorId, ctx: RequestContext, userActivity?: IUserActivity | undefined);
+    login(req: LoginRequest, client: AuthClient | undefined, user: AuthUser | undefined): Promise<CodeResponse>;
+    loginWithClientUser(req: LoginRequest): Promise<TokenResponse>;
+    getToken(req: AuthTokenRequest, codeReader: CodeReaderFn): Promise<TokenResponse>;
+    exchangeToken(req: AuthRefreshTokenRequest, deviceId?: string, token?: string): Promise<TokenResponse>;
+    resetPassword(req: ResetPassword, //about model
+    auth: string, currentUser: IAuthUserWithPermissions): Promise<SuccessResponse>;
+    me(): Promise<AuthUser | undefined>;
+    switchToken(req: AuthRefreshTokenRequest): Promise<TokenResponse>;
+    private createTokenPayload;
+    private createJWT;
+    private markUserActivity;
+}

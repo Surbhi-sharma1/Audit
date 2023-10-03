@@ -1,0 +1,1 @@
+{"version":3,"file":"cognito-post-verify.provider.js","sourceRoot":"","sources":["../../src/providers/cognito-post-verify.provider.ts"],"names":[],"mappings":";;;AAQA,MAAa,yBAAyB;IAGpC,KAAK;QACH,OAAO,KAAK,EAAE,OAAwB,EAAE,IAAsB,EAAE,EAAE,CAAC,IAAI,CAAC;IAC1E,CAAC;CACF;AAND,8DAMC"}

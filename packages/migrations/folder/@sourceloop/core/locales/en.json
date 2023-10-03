@@ -1,0 +1,13 @@
+{
+	"Invalid Credentials": "Invalid Credentials",
+	"Unexpected token } in JSON at position 153": "Unexpected token } in JSON at position 153",
+	"Bearer realm=\"Users\"": "Bearer realm=\"Users\"",
+	"Password cannot be same as previous password!": "Password cannot be same as previous password!",
+	"Cannot read properties of null (reading 'accessToken')": "Cannot read properties of null (reading 'accessToken')",
+	"Unexpected token \n in JSON at position 847": "Unexpected token \n in JSON at position 847",
+	"NodeRSA is not defined": "NodeRSA is not defined",
+	"Error during decryption (probably incorrect key). Original error": " Error: error:02000079:rsa routines::oaep decoding error",
+	"Unable to set password !": "Unable to set password !",
+	"Unexpected token } in JSON at position 487": "Unexpected token } in JSON at position 487",
+	"decryptedOldPassword is not defined": "decryptedOldPassword is not defined"
+}

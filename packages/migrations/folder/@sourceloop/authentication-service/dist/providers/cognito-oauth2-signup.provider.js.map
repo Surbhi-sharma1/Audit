@@ -1,0 +1,1 @@
+{"version":3,"file":"cognito-oauth2-signup.provider.js","sourceRoot":"","sources":["../../src/providers/cognito-oauth2-signup.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,2BAA2B;IACtC,KAAK;QACH,OAAO,KAAK,EAAC,OAAO,EAAC,EAAE;YACrB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,6CAA6C,CAC9C,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AARD,kEAQC"}

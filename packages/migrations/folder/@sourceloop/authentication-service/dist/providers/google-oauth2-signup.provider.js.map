@@ -1,0 +1,1 @@
+{"version":3,"file":"google-oauth2-signup.provider.js","sourceRoot":"","sources":["../../src/providers/google-oauth2-signup.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,0BAA0B;IACrC,KAAK;QACH,OAAO,KAAK,EAAC,OAAO,EAAC,EAAE;YACrB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,4CAA4C,CAC7C,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AARD,gEAQC"}

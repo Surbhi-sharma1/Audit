@@ -1,0 +1,1 @@
+{"version":3,"file":"signup-token-handler.provider.js","sourceRoot":"","sources":["../../src/providers/signup-token-handler.provider.ts"],"names":[],"mappings":";;;AAKA,yCAA0C;AAG1C,MAAa,0BAA0B;IAGrC,KAAK;QACH,OAAO,KAAK,EAAC,GAAG,EAAC,EAAE;YACjB,MAAM,IAAI,iBAAU,CAAC,cAAc,CACjC,4CAA4C,CAC7C,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AAVD,gEAUC"}

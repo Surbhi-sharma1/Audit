@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "pg",
+      "host": {
+        "ENV": "VIDEO_DB_HOST"
+      },
+      "port": {
+        "ENV": "VIDEO_DB_PORT"
+      },
+      "user": {
+        "ENV": "VIDEO_DB_USER"
+      },
+      "password": {
+        "ENV": "VIDEO_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "VIDEO_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
